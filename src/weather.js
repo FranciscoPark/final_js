@@ -18,7 +18,7 @@ const getJSON = function(url, callback) {
     xhr.send();
   };
   
-  getJSON('http://api.openweathermap.org/data/2.5/weather?q=seoul&appid=ac855aaaae946b17c838e1026f2b3915&units=metric',
+  getJSON('https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=ac855aaaae946b17c838e1026f2b3915&units=metric',
   function(err, data) {
     if(err !== null) {
       alert('예상치 못한 오류 발생.' + err);
