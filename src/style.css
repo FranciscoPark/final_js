@@ -1,0 +1,99 @@
+body
+{
+  background-position: cover;
+  
+}
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-family: Courier, monospace;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+button{
+  background-color:transparent;
+  border: none;
+}
+.js-form{
+  text-align: center;
+}
+.form,
+.greetings{
+      display: none;
+}
+.showing{
+      display: block;
+  }
+form{
+      text-align: center;
+  }
+
+.js-greetings{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+.js-toDoForm{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+input[type=text]{ 
+  text-align: center;
+  width:30%;
+  height:50px;
+  border:none;
+  color: aquamarine;
+  border-bottom:2px solid #dfe6e9;
+  font-size:30px;
+  background-color:transparent;
+}
+input::placeholder{ 
+  color: #fff;
+  opacity: 0.5;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#quote{
+  
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-family: Courier, monospace;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+#weather{
+  text-align: right;
+  color: #fff;
+  font-size: 15px;
+  font-style: italic;
+  font-family: Courier, monospace;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+#bottom {
+  color : #FFEA3F;
+  position:absolute;                
+  bottom:50px;                        
+  left: 100px;                        
+}
+#author{
+  color : #FFEA3F;
+  position:absolute;                
+  bottom:30px;                        
+  right: 100px;    
+}
+#js-toDoList{
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-family: Courier, monospace;
+  font-size: 35px;
+}
